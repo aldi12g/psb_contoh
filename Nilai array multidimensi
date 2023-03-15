@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // membuat array multidimensi 2x3
+    int arr[2][3] = {{1, 2, 3}, {4, 5, 6}};
+
+    // mengakses nilai dalam array multidimensi
+    cout << "Elemen arr[0][0]: " << arr[0][0] << endl;
+    cout << "Elemen arr[0][1]: " << arr[0][1] << endl;
+    cout << "Elemen arr[1][2]: " << arr[1][2] << endl;
+
+    return 0;
+}
